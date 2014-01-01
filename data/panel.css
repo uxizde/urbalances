@@ -1,0 +1,29 @@
+html,
+button,
+input,
+::-moz-placeholder {
+    background-color: #777;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+input,
+button {
+    border: thin solid #fff;
+}
+
+#balances,
+#login-form {
+    display: none;
+}
+
+#balance-table {
+    color: #fff;
+    margin: auto;
+}
+
+.account,
+.amount {
+    text-align: right;
+}

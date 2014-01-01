@@ -1,0 +1,9 @@
+{
+    "name": "urbalances",
+    "fullName": "UR Balances",
+    "id": "jid1-X4n5aA0MHoOyGg",
+    "description": "Shows yoUR balances.",
+    "author": "Xinran Li",
+    "license": "Apache 2.0",
+    "version": "0.1.0"
+}

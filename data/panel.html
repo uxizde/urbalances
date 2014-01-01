@@ -1,0 +1,26 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Panel</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='panel.css' rel='stylesheet' type='text/css'>
+<script src='panel.js'></script>
+
+<form id="login-form" autocomplete="off">
+    <p><input id="username" placeholder="NetID" required>
+    <p><input id="password" type="password" placeholder="Password" required>
+    <p><button type="submit">Sign in</button>
+</form>
+
+<div id="balances">
+    <table id="balance-table">
+        <tr>
+            <td class="account">Declining
+            <td class="amount" id="declining">
+        <tr>
+            <td class="account">URos
+            <td class="amount" id="uros">
+    </table>
+    <p>
+        <button id="refresh">Refresh</button>
+        <button id="logout">Sign out</button>
+</div>
