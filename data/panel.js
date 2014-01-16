@@ -22,14 +22,14 @@ function passLogin(e) {
 }
 
 addon.port.on('show-balances', function (balances) {
-    document.getElementById('declining').innerHTML = balances.declining;
-    document.getElementById('uros').innerHTML = balances.uros;
+    document.getElementById('declining').textContent = balances.declining;
+    document.getElementById('uros').textContent = balances.uros;
     document.getElementById('balances').style.display = 'block';
 });
 
 addon.port.on('hide-balances', function () {
-    document.getElementById('declining').innerHTML = '';
-    document.getElementById('uros').innerHTML = '';
+    document.getElementById('declining').textContent = '';
+    document.getElementById('uros').textContent = '';
     document.getElementById('balances').style.display = 'none';
 });
 
